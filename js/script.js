@@ -258,41 +258,94 @@ document.getElementById("progress-bar").style.width =
 scrolled + "%";
 
 });
+// =================================
+// NEURAL NETWORK PARTICLES
+// =================================
+
 particlesJS("particles-js", {
+
     particles: {
+
         number: {
-            value: 70
+            value: 100,
+            density: {
+                enable: true,
+                value_area: 900
+            }
         },
+
         color: {
             value: "#38BDF8"
         },
+
         shape: {
             type: "circle"
         },
+
         opacity: {
-            value: 0.4
+            value: 0.8,
+            random: true
         },
+
         size: {
-            value: 3
+            value: 2.5,
+            random: true
         },
-        move: {
-            enable: true,
-            speed: 2
-        },
+
         line_linked: {
             enable: true,
-            distance: 150,
+            distance: 170,
             color: "#38BDF8",
-            opacity: 0.3,
+            opacity: 0.25,
             width: 1
+        },
+
+        move: {
+
+            enable: true,
+
+            speed: 1.2,
+
+            direction: "none",
+
+            random: true,
+
+            straight: false,
+
+            out_mode: "out",
+
+            bounce: false
         }
     },
+
     interactivity: {
+
+        detect_on: "canvas",
+
         events: {
+
             onhover: {
                 enable: true,
                 mode: "grab"
+            },
+
+            onclick: {
+                enable: false
+            },
+
+            resize: true
+        },
+
+        modes: {
+
+            grab: {
+                distance: 200,
+                line_linked: {
+                    opacity: 0.5
+                }
             }
         }
-    }
+    },
+
+    retina_detect: true
 });
