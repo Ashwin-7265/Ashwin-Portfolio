@@ -201,15 +201,6 @@ nav.classList.toggle("active");
 
 }
 
-// Dark Mode
-
-const themeBtn=document.getElementById("theme-toggle");
-
-themeBtn.onclick=()=>{
-
-document.body.classList.toggle("light");
-
-}
 // ==========================
 // Scroll To Top Button
 // ==========================
@@ -258,6 +249,7 @@ document.getElementById("progress-bar").style.width =
 scrolled + "%";
 
 });
+
 // =================================
 // NEURAL NETWORK PARTICLES
 // =================================
