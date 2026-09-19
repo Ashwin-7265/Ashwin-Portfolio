@@ -1,0 +1,338 @@
+/* ===========================================
+   RESPONSIVE DESIGN
+   =========================================== */
+
+/* Large Tablets */
+@media screen and (max-width: 1200px){
+
+    .hero{
+        gap:40px;
+    }
+
+    .hero-content h1{
+        font-size:55px;
+    }
+
+    .hero-image img{
+        width:320px;
+        height:320px;
+    }
+
+}
+
+
+/* Tablets */
+
+@media screen and (max-width:992px){
+
+    .navbar{
+        flex-direction:column;
+        padding:20px 0;
+    }
+
+    .nav-links{
+        margin-top:15px;
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero{
+
+        flex-direction:column-reverse;
+        justify-content:center;
+        text-align:center;
+        padding-top:120px;
+
+    }
+
+    .hero-content{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+    .hero-content h1{
+
+        font-size:50px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:28px;
+
+    }
+
+    .hero-content p{
+
+        max-width:700px;
+
+    }
+
+    .hero-image{
+
+        margin-bottom:30px;
+
+    }
+
+    .hero-image img{
+
+        width:280px;
+        height:280px;
+
+    }
+
+    .buttons{
+
+        justify-content:center;
+        flex-wrap:wrap;
+
+    }
+
+    .social-icons{
+
+        display:flex;
+        justify-content:center;
+
+    }
+
+    .stats{
+
+        flex-wrap:wrap;
+
+    }
+
+    .project-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .skills-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+    .certificate-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+
+    section{
+
+        padding:80px 8%;
+
+    }
+
+    .logo{
+
+        font-size:24px;
+
+    }
+
+    .nav-links{
+
+        gap:15px;
+        font-size:15px;
+
+    }
+
+    .hero-content h3{
+
+        font-size:20px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:42px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:24px;
+
+    }
+
+    .hero-content p{
+
+        font-size:15px;
+
+    }
+
+    .hero-image img{
+
+        width:240px;
+        height:240px;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+        width:100%;
+
+    }
+
+    .btn{
+
+        width:220px;
+        text-align:center;
+
+    }
+
+    .section-title{
+
+        font-size:32px;
+
+    }
+
+    .skills-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .project-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .certificate-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .stats{
+
+        flex-direction:column;
+        align-items:center;
+
+    }
+
+    .card{
+
+        width:100%;
+        max-width:280px;
+
+    }
+
+    .timeline-item{
+
+        padding:25px;
+
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media screen and (max-width:480px){
+
+    .hero-content h1{
+
+        font-size:34px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:20px;
+
+    }
+
+    .hero-content p{
+
+        font-size:14px;
+
+    }
+
+    .hero-image img{
+
+        width:190px;
+        height:190px;
+
+    }
+
+    .nav-links{
+
+        flex-direction:column;
+        align-items:center;
+        gap:10px;
+
+    }
+
+    .section-title{
+
+        font-size:28px;
+
+    }
+
+    .skills-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-container{
+
+        padding:25px;
+
+    }
+
+    footer{
+
+        font-size:14px;
+
+    }
+
+}
+
+
+/* Extra Small Devices */
+
+@media screen and (max-width:360px){
+
+    .hero-content h1{
+
+        font-size:28px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:18px;
+
+    }
+
+    .hero-image img{
+
+        width:160px;
+        height:160px;
+
+    }
+
+    .btn{
+
+        width:180px;
+        padding:12px 20px;
+
+    }
+
+}
